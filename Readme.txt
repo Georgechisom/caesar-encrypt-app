@@ -1,0 +1,1 @@
+this is an application that encrypts code and it have been written and the encrpted button is click. although i habe not figure put the decrpyted function yet due to time i hope to do so soon. thank you.

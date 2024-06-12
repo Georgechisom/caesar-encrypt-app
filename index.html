@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caesar cipher app</title>
+    <link rel="stylesheet" href="caesar.css">
+</head>
+<body class="body">
+    
+    <!-- title -->
+     <h1 class="caesarapp">caesar cipher app</h1>
+
+     <!-- text -->
+     <section class="bigsection">
+
+       <div class="bothdiv">
+        <div>
+            <div> Default Message</div>
+            <textarea id="input-text" placeholder="Enter your text" name="" id="" class="textheig"></textarea>
+        </div>
+
+        <div>
+            <div> Result </div>
+            <textarea id="output-text" placeholder="Encrption and decrption will appear here" name="" id="" class="textheig"></textarea>
+        </div>
+       </div>
+
+     </section>
+
+     <section class="smallsection">
+        <div>
+            <label for="key"> Encryption key </label>
+            <input type="number" name="" id="key" min="1" max="25" value="1">
+
+            <button onclick="encrypt()"> Encrypt </button>
+            <button onclick="decrypt()"> Decrypt </button>
+        </div>
+     </section>
+
+
+     <script src="caesar.js"></script>
+</body>
+</html>
